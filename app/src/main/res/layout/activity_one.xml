@@ -1,0 +1,62 @@
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:id="@+id/name_label"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp"
+        android:paddingLeft="150dp"
+        android:textColor="@color/brown" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/name_input"
+        android:layout_below="@+id/name_label"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:hint="@string/name_hint"
+        android:textColor="@color/brown" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:id="@+id/email_label"
+        android:paddingLeft="100dp"
+        android:textColor="@color/green"
+        android:layout_below="@+id/name_input"
+        android:layout_alignLeft="@+id/name_input"
+        android:layout_alignStart="@+id/name_input"
+        android:layout_marginTop="52dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/email_input"
+        android:layout_below="@+id/email_label"
+        android:layout_alignRight="@+id/name_input"
+        android:layout_alignEnd="@+id/name_input"
+        android:layout_marginTop="42dp"
+        android:hint="@string/email_hint"
+        android:textColor="@color/green" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next_screen"
+        android:id="@+id/btnNextScreen"
+        android:layout_below="@+id/email_input"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="73dp" />
+</RelativeLayout>

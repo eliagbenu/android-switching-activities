@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Switching Activities</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="name">Name</string>
+    <string name="name_hint">Enter name here</string>
+    <string name="email">Email</string>
+    <string name="email_hint">Enter email here</string>
+    <string name="next_screen">Send me to next screen</string>
+    <string name="button_close">Send me back</string>
+    <string name="title_activity_activity_two">ActivityTwo</string>
+
+</resources>
